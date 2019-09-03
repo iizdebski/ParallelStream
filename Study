@@ -1,0 +1,11 @@
+Multi-threading with streams
+
+Stream API simplifies multithreadaing by providing
+the parallelStream() method that runs operations over stream's elements in
+parallel mode.
+The code below allows to run method doWork() in parallel for every element of
+the stream:
+
+list.parallelStream().forEach(element -> doWork(element));
+
+

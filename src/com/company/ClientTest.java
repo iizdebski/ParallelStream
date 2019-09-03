@@ -31,10 +31,10 @@ public class ClientTest {
 
 
 
-/*		Stream<Student> parallelStream = list.parallelStream();
+		Stream<Student> parallelStream = list.parallelStream();
 		System.out.println("Students data send for processing:::");
 		parallelStream.forEach(s->doProcess(s));
-*/
+
     }
 
     private static void doProcess(Student s) {
